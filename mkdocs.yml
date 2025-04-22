@@ -1,0 +1,40 @@
+site_name: 惠阴校园 - 知识库
+theme:
+  name: material
+  palette:
+    primary: white
+  custom_dir: material
+  features:
+    - content.code.copy
+    - content.code.annotate 
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+ 
+# mkdocs.yml 相关配置
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - tables
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - 首页: index.md
+
+extra_css:
+  - style.css
