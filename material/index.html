@@ -1,8 +1,11 @@
+{% extends "base.html" %}
 <style>
     .md-sidebar{
         display: none !important;
     }
+    .md-main{
+        background-image: url( /bg.png) !important;
+    }
 </style>
-{% extends "base.html" %}
 {% block tabs %}{{super()}}
 {% endblock %} {% block content %}{{super()}}{% endblock %} {% block footer %}{% endblock %}

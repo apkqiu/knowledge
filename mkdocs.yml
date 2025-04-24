@@ -33,8 +33,6 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
-nav:
-  - 首页: index.md
 
 extra_css:
   - style.css
